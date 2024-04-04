@@ -1,4 +1,5 @@
     import styles from '../components/Posts.module.css'
+import { Comments } from './Comments'
     console.log(styles)
 export function Posts(){
 
@@ -37,6 +38,16 @@ export function Posts(){
                         </div>
 
                     </form>
+                    
+                    <div className={styles.commentsList} >
+
+                    <Comments/>
+                    <Comments />
+                    <Comments />
+           
+
+                    </div>
+
 
 
             </article>

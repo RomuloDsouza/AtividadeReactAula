@@ -3,7 +3,6 @@ import { Posts } from "./components/Posts";
 import { Sidebar } from "./components/Sidebar";
 import "./Global.styles.css";
 import styles from "../src/components/App.module.css";
-import { Comments } from "./components/Comments";
 
 function App() {
   return (
@@ -18,10 +17,7 @@ function App() {
 
             <Posts />
 
-            <Comments />
-            <Comments />
-            <Comments />
-           
+            
 
 
           </main>
